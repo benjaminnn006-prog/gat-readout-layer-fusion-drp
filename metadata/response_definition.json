@@ -1,0 +1,17 @@
+{
+  "artifact": "data/lenient_split_fold_0_dataset.csv",
+  "sha256": "fdd2467eac4cf4409efe87b594da40eace1b8c41816bde40719405f6f44b6831",
+  "columns": {
+    "Cell": "stored COSMIC-style cell identifier; string",
+    "Drug": "stored compound name; string",
+    "IC50": "legacy field name; processed unitless response imported from TFRecord float32 feature ic50; not verified raw IC50 or LN_IC50"
+  },
+  "n_pairs": 159114,
+  "n_cells": 957,
+  "n_drugs": 206,
+  "response_min": 0.0,
+  "response_max": 1.0,
+  "upstream_transformation": "unknown: original TFRecord producer not recovered; do not infer a transform from the range or attempt inverse conversion",
+  "raw_assay_reproducibility": false,
+  "gene_order": "metadata/gene_order.csv; no gene graph used"
+}

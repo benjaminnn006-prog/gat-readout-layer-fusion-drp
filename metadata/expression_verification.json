@@ -1,0 +1,13 @@
+{
+  "matrix": "Cell_line_RMA_proc_basalExp.txt",
+  "matrix_sha256": "379c226502533e7f54eee84886ef2bad5f296164c1444cce7b511a140f4dda2d",
+  "gene_list_sha256": "e8b22dba4ba19a7db3107dad115e5e20678e270030f10fe4446c63ad8b0ce358",
+  "key_genes_sha256": "c27b27001da3d5520058c7205fd4bf2adc3c08f6d398d189aee3e0e57c042890",
+  "n_genes": 5757,
+  "n_used_cells": 957,
+  "max_absolute_difference": 0.0,
+  "gene_selection": "sorted intersection of supplied key.genes.txt and matrix gene identifiers",
+  "additional_gene_z_scaling": false,
+  "key_gene_list_selection_origin": "not recovered",
+  "RMA_before_supplied_matrix": "not reconstructed"
+}

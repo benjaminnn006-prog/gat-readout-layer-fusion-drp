@@ -1,0 +1,24 @@
+{
+  "GPU": "NVIDIA A100-PCIE-40GB",
+  "gpu_records": [
+    "NVIDIA A100-PCIE-40GB"
+  ],
+  "jobs": "one task per GPU; six concurrent tasks on physical GPUs 0-5; GPUs 6-7 excluded",
+  "precision": "float32; AMP and TF32 disabled",
+  "timer": "sum of all 80 epoch train_validation_seconds; CUDA synchronize before time.perf_counter start and after complete validation prediction and CPU metrics",
+  "included": [
+    "training batch collation and device transfers",
+    "forward, loss, backward, optimizer update",
+    "complete validation data handling, prediction, and CPU metrics"
+  ],
+  "excluded": [
+    "PCA fit and projection",
+    "feature file/dictionary loading",
+    "model and optimizer construction",
+    "checkpoint and history writing",
+    "post-training validation/test evaluation and exports"
+  ],
+  "allocated_memory": "torch.cuda.reset_peak_memory_stats(device) after model/optimizer setup; maximum torch.cuda.max_memory_allocated(device) sampled after each training/validation epoch; divided by 1024**2; includes already live device tensors and framework allocations; excludes other processes, caching-reserved but unallocated memory, and device total",
+  "not_idle_gpu_benchmark": true,
+  "resumed_runs": 0
+}

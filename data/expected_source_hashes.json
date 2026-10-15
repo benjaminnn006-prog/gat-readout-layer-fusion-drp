@@ -1,0 +1,29 @@
+{
+  "sha256": {
+    "GRAPH_dict.pkl": "c23d5d4654d1e9a255b5e657d5e5af932465dab002146470ac96e4bd7915cdb4",
+    "RMA_dict.pkl": "cf21dd3648f734a069a087b5b97b13221dc868317989edaeebe61ab04598bf4e",
+    "MolGNet_dict.pkl": "eca03bce4fac0f95c7b7db7374de94ea45759443979b3a80c25772a711ab158d",
+    "gene_list_sel.txt": "e8b22dba4ba19a7db3107dad115e5e20678e270030f10fe4446c63ad8b0ce358",
+    "lenient_split_fold_0_dataset.csv": "fdd2467eac4cf4409efe87b594da40eace1b8c41816bde40719405f6f44b6831",
+    "lenient_split_test.csv": "97f92058611c54991656b0e815759383445e6d8a2930dbed4a8dd587aecafce7",
+    "lenient_split_fold_0_validation.csv": "c2504867fb468368d7b25706fc4fa07b3ba15104b6431c5f7292e4cf59e961c1",
+    "lenient_split_fold_1_validation.csv": "ba8d8772a398e8b97ab24e24b4dcaab06b9b8c758e85ef848f837206890934a8",
+    "lenient_split_fold_2_validation.csv": "b3e518571eebce38de5e9352ea8c288eab67379819d620de602efaa455e089fe",
+    "lenient_split_fold_3_validation.csv": "1749825da16ae1f4b583efdaf99ee56689e2c8bf144e96198cb007044a1bf413",
+    "lenient_split_fold_4_validation.csv": "5ed83f550db1b6d073885570c9fdcf585876126c26419d6fde3b0ab798cbc48a"
+  },
+  "files": [
+    "GRAPH_dict.pkl",
+    "RMA_dict.pkl",
+    "MolGNet_dict.pkl",
+    "gene_list_sel.txt",
+    "lenient_split_fold_0_dataset.csv",
+    "lenient_split_test.csv",
+    "lenient_split_fold_0_validation.csv",
+    "lenient_split_fold_1_validation.csv",
+    "lenient_split_fold_2_validation.csv",
+    "lenient_split_fold_3_validation.csv",
+    "lenient_split_fold_4_validation.csv"
+  ],
+  "trusted_local_pickles_only": true
+}

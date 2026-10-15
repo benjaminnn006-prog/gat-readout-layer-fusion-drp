@@ -1,0 +1,62 @@
+[
+  {
+    "file": "RMA/analysis.py",
+    "same_normalized_source": true,
+    "local_sha256": "68302eed5240f08f30c54ed6977263bc7697b7653ca423c9f41eff2311de8618",
+    "official_mirror_sha256": "68302eed5240f08f30c54ed6977263bc7697b7653ca423c9f41eff2311de8618"
+  },
+  {
+    "file": "RMA/gene_list_sel.py",
+    "same_normalized_source": true,
+    "local_sha256": "5a3d599547ed9051d70856e847a5ce6372d336afaccc9406eb4e61127ea59327",
+    "official_mirror_sha256": "5a3d599547ed9051d70856e847a5ce6372d336afaccc9406eb4e61127ea59327"
+  },
+  {
+    "file": "RMA/RMA_dict.py",
+    "same_normalized_source": true,
+    "local_sha256": "a44c6f0882df983d3e45a98b646716c3a3e9bc6413ad3f5cb3261bf7872cb80a",
+    "official_mirror_sha256": "a44c6f0882df983d3e45a98b646716c3a3e9bc6413ad3f5cb3261bf7872cb80a"
+  },
+  {
+    "file": "DRUG/getGraphs.py",
+    "same_normalized_source": true,
+    "local_sha256": "de33893f328e704ae790747d08f75a559c6e3e96de7a076763671f7f3b868dd1",
+    "official_mirror_sha256": "de33893f328e704ae790747d08f75a559c6e3e96de7a076763671f7f3b868dd1"
+  },
+  {
+    "file": "DRUG/getSmiles.py",
+    "same_normalized_source": true,
+    "local_sha256": "f577a9b4d636390cfe97dbbcc3e2864bf46d25e0f22afdeecd83ff60947450dd",
+    "official_mirror_sha256": "f577a9b4d636390cfe97dbbcc3e2864bf46d25e0f22afdeecd83ff60947450dd"
+  },
+  {
+    "file": "DRUG/loader.py",
+    "same_normalized_source": true,
+    "local_sha256": "73afd21d867a42f00f2ba2fa85fdb21ee149dc1edac656da79b87cad52ba867f",
+    "official_mirror_sha256": "73afd21d867a42f00f2ba2fa85fdb21ee149dc1edac656da79b87cad52ba867f"
+  },
+  {
+    "file": "MolGNet/message_passing.py",
+    "same_normalized_source": true,
+    "local_sha256": "5d5f67905aae5ca41ab7189ba32c83b6f6e7f5650e44b7fa6796efd86ed849de",
+    "official_mirror_sha256": "5d5f67905aae5ca41ab7189ba32c83b6f6e7f5650e44b7fa6796efd86ed849de"
+  },
+  {
+    "file": "MolGNet/Model_GNN.py",
+    "same_normalized_source": true,
+    "local_sha256": "2df59f80e4eb131dc44691629e1ee2019be95217aa1ac72a93a0e70c5646fe18",
+    "official_mirror_sha256": "2df59f80e4eb131dc44691629e1ee2019be95217aa1ac72a93a0e70c5646fe18"
+  },
+  {
+    "file": "MolGNet/MolGNet_dict.py",
+    "same_normalized_source": false,
+    "local_sha256": "9f58edb663cff44fb30ea11bf16f9740c2ca2acea081628ea30ff1fa94f14ec1",
+    "official_mirror_sha256": "1cbc0b4051ead5d4a95bd674fd121dd8a7f009d003adc4e3aacd7db6e4687cca"
+  },
+  {
+    "file": "MolGNet/util.py",
+    "same_normalized_source": true,
+    "local_sha256": "cbcd1c01a11c2bd229fc8f5cffb61965b68688ec8242e0cc196f8026cb566102",
+    "official_mirror_sha256": "cbcd1c01a11c2bd229fc8f5cffb61965b68688ec8242e0cc196f8026cb566102"
+  }
+]

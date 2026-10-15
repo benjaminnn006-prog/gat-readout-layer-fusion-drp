@@ -1,0 +1,17 @@
+[
+  {
+    "file": "GRAPH_dict.pkl",
+    "sha256": "c23d5d4654d1e9a255b5e657d5e5af932465dab002146470ac96e4bd7915cdb4",
+    "preprocessing_copy_identical": true
+  },
+  {
+    "file": "RMA_dict.pkl",
+    "sha256": "cf21dd3648f734a069a087b5b97b13221dc868317989edaeebe61ab04598bf4e",
+    "preprocessing_copy_identical": true
+  },
+  {
+    "file": "MolGNet_dict.pkl",
+    "sha256": "eca03bce4fac0f95c7b7db7374de94ea45759443979b3a80c25772a711ab158d",
+    "preprocessing_copy_identical": true
+  }
+]

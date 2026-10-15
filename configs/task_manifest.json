@@ -1,0 +1,802 @@
+[
+  {
+    "id": "warm__compact__baseline__r0",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__attn_pool__r0",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__layer_gate__r0",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__full__r0",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "cold_cell__compact__baseline__r0",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "cold_cell__compact__attn_pool__r0",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "cold_cell__compact__layer_gate__r0",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "cold_cell__compact__full__r0",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__baseline__r1",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__attn_pool__r1",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__layer_gate__r1",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__full__r1",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "cold_cell__compact__baseline__r1",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 1,
+    "split": 0,
+    "seed": 43
+  },
+  {
+    "id": "cold_cell__compact__attn_pool__r1",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 1,
+    "split": 0,
+    "seed": 43
+  },
+  {
+    "id": "cold_cell__compact__layer_gate__r1",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 1,
+    "split": 0,
+    "seed": 43
+  },
+  {
+    "id": "cold_cell__compact__full__r1",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 1,
+    "split": 0,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__baseline__r2",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__attn_pool__r2",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__layer_gate__r2",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__full__r2",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "cold_cell__compact__baseline__r2",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 2,
+    "split": 0,
+    "seed": 44
+  },
+  {
+    "id": "cold_cell__compact__attn_pool__r2",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 2,
+    "split": 0,
+    "seed": 44
+  },
+  {
+    "id": "cold_cell__compact__layer_gate__r2",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 2,
+    "split": 0,
+    "seed": 44
+  },
+  {
+    "id": "cold_cell__compact__full__r2",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 2,
+    "split": 0,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__baseline__r3",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__attn_pool__r3",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__layer_gate__r3",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__full__r3",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "cold_cell__compact__baseline__r3",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 3,
+    "split": 0,
+    "seed": 45
+  },
+  {
+    "id": "cold_cell__compact__attn_pool__r3",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 3,
+    "split": 0,
+    "seed": 45
+  },
+  {
+    "id": "cold_cell__compact__layer_gate__r3",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 3,
+    "split": 0,
+    "seed": 45
+  },
+  {
+    "id": "cold_cell__compact__full__r3",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 3,
+    "split": 0,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__baseline__r4",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__attn_pool__r4",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__layer_gate__r4",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__full__r4",
+    "group": "01_core_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "cold_cell__compact__baseline__r4",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "baseline",
+    "repeat": 4,
+    "split": 0,
+    "seed": 46
+  },
+  {
+    "id": "cold_cell__compact__attn_pool__r4",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "attn_pool",
+    "repeat": 4,
+    "split": 0,
+    "seed": 46
+  },
+  {
+    "id": "cold_cell__compact__layer_gate__r4",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "layer_gate",
+    "repeat": 4,
+    "split": 0,
+    "seed": 46
+  },
+  {
+    "id": "cold_cell__compact__full__r4",
+    "group": "02_cold_cell",
+    "regime": "cold_cell",
+    "feature": "compact",
+    "variant": "full",
+    "repeat": 4,
+    "split": 0,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__equal_fusion__r0",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "equal_fusion",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__capacity__r0",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "capacity",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__gcn__r0",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gcn",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__gatv2__r0",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gatv2",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__raw__baseline__r0",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "baseline",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__raw__full__r0",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "full",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__drug_only__r0",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "drug_only",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__cell_only__r0",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "cell_only",
+    "repeat": 0,
+    "split": 0,
+    "seed": 42
+  },
+  {
+    "id": "warm__compact__equal_fusion__r1",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "equal_fusion",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__capacity__r1",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "capacity",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__gcn__r1",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gcn",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__gatv2__r1",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gatv2",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__raw__baseline__r1",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "baseline",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__raw__full__r1",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "full",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__drug_only__r1",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "drug_only",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__cell_only__r1",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "cell_only",
+    "repeat": 1,
+    "split": 1,
+    "seed": 43
+  },
+  {
+    "id": "warm__compact__equal_fusion__r2",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "equal_fusion",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__capacity__r2",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "capacity",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__gcn__r2",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gcn",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__gatv2__r2",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gatv2",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__raw__baseline__r2",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "baseline",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__raw__full__r2",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "full",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__drug_only__r2",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "drug_only",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__cell_only__r2",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "cell_only",
+    "repeat": 2,
+    "split": 2,
+    "seed": 44
+  },
+  {
+    "id": "warm__compact__equal_fusion__r3",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "equal_fusion",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__capacity__r3",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "capacity",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__gcn__r3",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gcn",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__gatv2__r3",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gatv2",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__raw__baseline__r3",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "baseline",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__raw__full__r3",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "full",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__drug_only__r3",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "drug_only",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__cell_only__r3",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "cell_only",
+    "repeat": 3,
+    "split": 3,
+    "seed": 45
+  },
+  {
+    "id": "warm__compact__equal_fusion__r4",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "equal_fusion",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__capacity__r4",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "capacity",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__gcn__r4",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gcn",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__gatv2__r4",
+    "group": "03_algorithm_controls",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "gatv2",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__raw__baseline__r4",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "baseline",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__raw__full__r4",
+    "group": "04_input_configuration",
+    "regime": "warm",
+    "feature": "raw",
+    "variant": "full",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__drug_only__r4",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "drug_only",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  },
+  {
+    "id": "warm__compact__cell_only__r4",
+    "group": "05_modality_ablation",
+    "regime": "warm",
+    "feature": "compact",
+    "variant": "cell_only",
+    "repeat": 4,
+    "split": 4,
+    "seed": 46
+  }
+]

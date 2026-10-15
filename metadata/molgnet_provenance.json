@@ -1,0 +1,25 @@
+{
+  "checkpoint": "MolGNet.pt",
+  "checkpoint_sha256": "0e644baeddb1649dee2d48154b5122cca4e7f3e0bbc326bb0c513fcee3eba2be",
+  "architecture": {
+    "num_layer": 5,
+    "emb_dim": 768,
+    "heads": 12,
+    "num_message_passing": 3,
+    "drop_ratio": 0
+  },
+  "evaluation_mode": true,
+  "extra_transforms": [
+    "self loops",
+    "zero node and edge segment IDs"
+  ],
+  "collection_node_added": false,
+  "n_drugs_checked": 206,
+  "allclose_drugs": 0,
+  "max_absolute_difference": 0.0037908554077148438,
+  "training_during_feature_export": false,
+  "DRP_fine_tuning_of_stored_features": false,
+  "pretraining_reference": "https://doi.org/10.1093/bib/bbab109",
+  "official_repository": "https://github.com/pyli0628/MPG",
+  "original_checkpoint_download_receipt": "not recovered; local checkpoint identified by hash; official repository link does not certify historical download identity"
+}

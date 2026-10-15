@@ -1,0 +1,9 @@
+{
+  "paper_title": "Improving drug response prediction via integrating gene relationships with deep learning",
+  "DOI": "10.1093/bib/bbae153",
+  "official_repository": "https://github.com/user15632/DIPK",
+  "local_official_clone_commit": "0edfc151fbbdb7864d577865f9541a689d706c5b",
+  "preprocessing_source_match": "9/10 scripts byte-identical; remaining MolGNet export script identical after relative checkpoint path correction",
+  "reported_paper_dataset": "957 cells, 206 drugs, 159114 pairs, matching study size",
+  "limit": "Script and size matches identify the local preprocessing lineage, but not the original TFRecord producer or actual preceding response transformation, nor a byte-verified public data download."
+}
