@@ -1,0 +1,57 @@
+{
+  "paper": "Improving drug response prediction via integrating gene relationships with deep learning",
+  "DOI": "10.1093/bib/bbae153",
+  "official_repository": "https://github.com/user15632/DIPK",
+  "official_repository_commit_inspected": "0edfc151fbbdb7864d577865f9541a689d706c5b",
+  "public_download_folder": "https://drive.google.com/drive/folders/16hP48-noHi3-c_LP9TcZxkwAzqxgR0VB",
+  "checked_on": "2026-10-16",
+  "verification": "Exact uncompressed files recovered by HTTP Range from the author-linked public RAR archives; archive CRC and SHA-256 checked against actual study inputs. No raw-response, expression, feature or checkpoint binary is republished here.",
+  "files": [
+    {
+      "archive": "Data.rar",
+      "archive_file_id": "1a2oXiai0idqgBMp0t4y_7ZoMQhSp18Pa",
+      "file": "Data/lenient_split/lenient_split_fold_0_dataset.csv",
+      "sha256": "fdd2467eac4cf4409efe87b594da40eace1b8c41816bde40719405f6f44b6831",
+      "unpacked_bytes": 5922415,
+      "archive_crc_verified": true,
+      "byte_identical_to_study_input": true
+    },
+    {
+      "archive": "Data.rar",
+      "archive_file_id": "1a2oXiai0idqgBMp0t4y_7ZoMQhSp18Pa",
+      "file": "Data/key.genes.txt",
+      "sha256": "c27b27001da3d5520058c7205fd4bf2adc3c08f6d398d189aee3e0e57c042890",
+      "unpacked_bytes": 38842,
+      "archive_crc_verified": true,
+      "byte_identical_to_study_input": true
+    },
+    {
+      "archive": "Code.rar",
+      "archive_file_id": "13U5f_Id8oDtTuHUMsRz8UMFVoS6U5y1T",
+      "file": "Task1/Dataset/lenient_split_fold_0_dataset.csv",
+      "sha256": "fdd2467eac4cf4409efe87b594da40eace1b8c41816bde40719405f6f44b6831",
+      "unpacked_bytes": 5922415,
+      "archive_crc_verified": true,
+      "byte_identical_to_study_input": true
+    },
+    {
+      "archive": "Code.rar",
+      "archive_file_id": "13U5f_Id8oDtTuHUMsRz8UMFVoS6U5y1T",
+      "file": "Task1/Dataset/MolGNet_dict.pkl",
+      "sha256": "eca03bce4fac0f95c7b7db7374de94ea45759443979b3a80c25772a711ab158d",
+      "unpacked_bytes": 20035309,
+      "archive_crc_verified": true,
+      "byte_identical_to_study_input": true
+    },
+    {
+      "archive": "Code.rar",
+      "archive_file_id": "13U5f_Id8oDtTuHUMsRz8UMFVoS6U5y1T",
+      "file": "Task1/Dataset/RMA_dict.pkl",
+      "sha256": "cf21dd3648f734a069a087b5b97b13221dc868317989edaeebe61ab04598bf4e",
+      "unpacked_bytes": 52776618,
+      "archive_crc_verified": true,
+      "byte_identical_to_study_input": true
+    }
+  ],
+  "scope": "The actual processed benchmark and fixed input feature provenance are now verified. The producer of the preceding TFRecords and historical assay-to-score transformation are not reconstructed."
+}

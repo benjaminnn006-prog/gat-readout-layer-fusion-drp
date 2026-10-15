@@ -21,5 +21,12 @@
   "DRP_fine_tuning_of_stored_features": false,
   "pretraining_reference": "https://doi.org/10.1093/bib/bbab109",
   "official_repository": "https://github.com/pyli0628/MPG",
-  "original_checkpoint_download_receipt": "not recovered; local checkpoint identified by hash; official repository link does not certify historical download identity"
+  "original_checkpoint_download_receipt": "not recovered; local checkpoint identified by hash; official repository link does not certify historical download identity",
+  "stored_feature_public_source": {
+    "archive": "Code.rar",
+    "file": "Task1/Dataset/MolGNet_dict.pkl",
+    "sha256": "eca03bce4fac0f95c7b7db7374de94ea45759443979b3a80c25772a711ab158d",
+    "byte_identical_to_study_input": true
+  },
+  "reconstruction_diagnostic_scope": "CPU reconstruction differences concern re-exporting from a local candidate checkpoint. The reported experiments use the author-released stored features unchanged; their public-file identity is verified."
 }

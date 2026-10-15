@@ -1,0 +1,10 @@
+{
+  "reference_url": "https://raw.githubusercontent.com/user15632/DIPK/0edfc151fbbdb7864d577865f9541a689d706c5b/Figure/Task1%262%263/Task1_result.csv",
+  "reference_sha256": "30a98a415c7dda63f2db774d4dbbf607158f8538eba3cdf92d00d392e41e9cc7",
+  "matched_test_pairs": 15910,
+  "relation": "reference_value = slope * released_score + offset",
+  "slope": 20.6057173499891,
+  "offset": -8.774351209991192,
+  "max_absolute_residual": 3.5751561711094837e-09,
+  "interpretation": "Empirical affine alignment on the 15,910 shared published test pairs only. Not a recovered normalization script, not verification of original GDSC assay values for all 159,114 pairs; no inverse transform is applied to manuscript metrics."
+}

@@ -5,5 +5,7 @@
   "local_official_clone_commit": "0edfc151fbbdb7864d577865f9541a689d706c5b",
   "preprocessing_source_match": "9/10 scripts byte-identical; remaining MolGNet export script identical after relative checkpoint path correction",
   "reported_paper_dataset": "957 cells, 206 drugs, 159114 pairs, matching study size",
-  "limit": "Script and size matches identify the local preprocessing lineage, but not the original TFRecord producer or actual preceding response transformation, nor a byte-verified public data download."
+  "limit": "Response, expression and stored MolGNet inputs are verified byte-for-byte against DIPK’s official downloadable archives. The historical assay-to-score transform is not specified in the release; raw-assay reconstruction is not claimed.",
+  "public_artifact_identity_verified": true,
+  "public_artifact_evidence": "metadata/DIPK_public_artifact_verification.json"
 }

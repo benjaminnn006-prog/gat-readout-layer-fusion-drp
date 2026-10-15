@@ -4,14 +4,17 @@
   "columns": {
     "Cell": "stored COSMIC-style cell identifier; string",
     "Drug": "stored compound name; string",
-    "IC50": "legacy field name; processed unitless response imported from TFRecord float32 feature ic50; not verified raw IC50 or LN_IC50"
+    "IC50": "Legacy released field name; the author-released processed scores lie in [0,1]. Used unchanged in the present study. The source publication describes LN IC50, but the release does not specify its conversion to this score scale. Metrics in this manuscript remain on the released score scale."
   },
   "n_pairs": 159114,
   "n_cells": 957,
   "n_drugs": 206,
   "response_min": 0.0,
   "response_max": 1.0,
-  "upstream_transformation": "unknown: original TFRecord producer not recovered; do not infer a transform from the range or attempt inverse conversion",
+  "upstream_transformation": "Not specified in the inspected DIPK release. Its exact published response CSV and stored input artifacts have been recovered and verified. Do not infer a new assay transformation from the score range.",
   "raw_assay_reproducibility": false,
-  "gene_order": "metadata/gene_order.csv; no gene graph used"
+  "gene_order": "metadata/gene_order.csv; no gene graph used",
+  "source_release": "DIPK official Code.rar/Task1/Dataset/lenient_split_fold_0_dataset.csv and Data.rar/Data/lenient_split/lenient_split_fold_0_dataset.csv",
+  "public_response_artifact_identity_verified": true,
+  "reference_alignment_diagnostic": "metadata/reference_response_alignment.json; empirical check only, not the original preprocessing code."
 }

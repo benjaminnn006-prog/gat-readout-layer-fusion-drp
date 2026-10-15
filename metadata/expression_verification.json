@@ -8,6 +8,8 @@
   "max_absolute_difference": 0.0,
   "gene_selection": "sorted intersection of supplied key.genes.txt and matrix gene identifiers",
   "additional_gene_z_scaling": false,
-  "key_gene_list_selection_origin": "not recovered",
-  "RMA_before_supplied_matrix": "not reconstructed"
+  "key_gene_list_selection_origin": "DIPK published preprocessing description: genes with high expression variation, excluding genes with missing values; 5,757 retained. The original selection is inherited, not rerun within the present training partitions.",
+  "RMA_before_supplied_matrix": "not reconstructed",
+  "source_description": "Li et al. 2024, DOI 10.1093/bib/bbae153, published datasets and preprocessing description.",
+  "public_expression_artifact_identity_verified": true
 }
