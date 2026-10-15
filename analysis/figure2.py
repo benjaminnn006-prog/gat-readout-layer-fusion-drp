@@ -9,6 +9,7 @@ import pandas as pd,numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 ROOT=Path(__file__).resolve().parents[1]
+(ROOT/'figures').mkdir(exist_ok=True)
 DATA=ROOT/'results'
 mpl.rcParams.update({'font.family':'Arial','font.size':7,'axes.titlesize':8,'axes.labelsize':7,'xtick.labelsize':7,'ytick.labelsize':7,'legend.fontsize':7,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.65,'lines.linewidth':.8,'legend.frameon':False,'svg.fonttype':'none','pdf.fonttype':42,'savefig.facecolor':'white'})
 run=pd.read_csv(DATA/'recomputed_runs.csv');macro=pd.read_csv(DATA/'defined_PCC_by_run.csv');drug=pd.read_csv(DATA/'figure3_drug_source.csv')
